@@ -3,27 +3,29 @@
 ---
 
 // Colors
-$primary: #E5261F;
-$secondary: #f88379;
+$primary: #67BFEB;
+$secondary: #C8E8F9;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5C5A5A;
+$white-offset: #FEF2EC;
+$steel: #627580;
+$dark-blue: #206C97;
 
 // Links
 $link-color: $primary;
 $link-decoration: none;
 $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
+$dark-link-hover-color: lighten($dark-blue,10%);
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Playfair Display', serif, -apple-system;
+$font-family-base: 'Roboto', 'Open Sans', 'Monserrat' Arial, sans-serif, -apple-system;
+$font-family-heading: 'Merriweather', serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $steel;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: darken($steel, 10%);
 $sub-footer-text-color: $white;
 
 // Bootstrap
@@ -59,7 +61,7 @@ $sub-footer-text-color: $white;
 // Pages
 @import 'pages/home';
 @import 'pages/team/team-summary';
-@import 'pages/services/page-services-single';
+@import 'pages/work/page-work-single';
 
 body {
   font-size: 16px;
