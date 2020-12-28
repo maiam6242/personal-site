@@ -1,9 +1,9 @@
 ---
-title: "Business Advisory"
+title: "Research and Advocacy around Homelessness at the Coalition on Homelessness and Burnes Center"
 date: 2018-11-28T15:14:39+10:00
 featured: true
 weight: 2
-layout: service
+layout: work
 ---
 
 Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
