@@ -1,5 +1,5 @@
 ---
-title: "Software Engineering on Joe Knows Project"
+title: "Software_Engineering_and_Product_at_Onshape"
 date: 2018-11-18T12:33:46+10:00
 featured: true
 weight: 6

@@ -25,12 +25,13 @@ bodyClass: page-home
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {% for ser in site.work %}
+      {% for work in site.work %}
       <div class="col-12 col-md-4 mb-1">
         <div class="work work-summary">
           <div class="work-content">
             <h2 class="work-title">
-              <a href="{{site.baseurl}}{{ ser.url }}">{{ ser.title }}</a>
+              <p>ser.url</p>
+              <a href="{{site.baseurl}}{{ work.url }}">{{ work.title }}</a>
             </h2>
             <p>{{ work.content | markdownify | strip_html | truncate: 100 }}</p>
           </div>

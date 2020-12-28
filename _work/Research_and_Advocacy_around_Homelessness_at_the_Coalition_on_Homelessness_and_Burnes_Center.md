@@ -1,5 +1,5 @@
 ---
-title: "Research and Advocacy around Homelessness at the Coalition on Homelessness and Burnes Center"
+title: "Research_and_Advocacy_around_Homelessness_at_the_Coalition_on_Homelessness_and_Burnes_Center"
 date: 2018-11-28T15:14:39+10:00
 featured: true
 weight: 2
