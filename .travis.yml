@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - 2.5.1
+
+before_install:
+  - chmod +x build.sh
+
+install:
+  - bundle install
+  - gem install jekyll
+
+branches:
+  only:
+    - main
+
+script:
+  - "./build.sh"
+
+# env:
+#   global:
+#     - JEKYLL_ENV=production
