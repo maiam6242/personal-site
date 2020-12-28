@@ -20,14 +20,14 @@ bodyClass: page-work-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for work in site.work %}
+    {% for ser in site.work %}
     <div class="col-12 col-md-6 mb-3">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title">
-            <a href="{{site.baseurl}}{{ work.url }}">{{ work.title }}</a>
+            <a href="{{site.baseurl}}{{ ser.url }}">{{ ser.title }}</a>
           </h2>
-          <p>{{ work.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>{{ ser.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
     </div>
