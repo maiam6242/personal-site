@@ -1,5 +1,5 @@
 ---
-title: Home!
+title: Maia Materman
 layout: home
 description: A homepage for my portfolio and resume website
 intro_image: "images/illustrations/pointing.svg"

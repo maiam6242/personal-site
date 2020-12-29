@@ -3,10 +3,10 @@ main:
     url: "/work/"
     weight: 2
   - name: "About"
-    url: "/team/"
+    url: "/about/"
     weight: 3
   - name: "Resume"
-    url: "/about/"
+    url: "/resume/"
     weight: 4
   - name: "Contact"
     url: "/contact/"
