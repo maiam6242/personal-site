@@ -177,7 +177,7 @@ models:
   work:
     type: page
     label: Work
-    layout: Work
+    layout: work
     fields:
       - type: string
         name: title
@@ -187,10 +187,10 @@ models:
         name: featured
       - type: number
         name: weight
-  work:
+  works:
     type: page
     label: Work
-    layout: Work
+    layout: works
     fields:
       - type: string
         name: title
