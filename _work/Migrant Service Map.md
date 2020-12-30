@@ -1,8 +1,10 @@
 ---
-title: "Product_Management_at_Code_for_Boston"
+title: "Migrant Service Map"
+subtitle: "Feb 2019 - Dec 2019"
 date: 2018-11-28T15:15:26+10:00
 featured: true
-weight: 3
+skills: "Product Management, User  Research, Documentation Development, Quality Assurance  Testing"
+weight: 5
 layout: work
 ---
 

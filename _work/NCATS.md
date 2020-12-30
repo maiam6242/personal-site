@@ -1,8 +1,9 @@
 ---
-title: "Product_Management
-_at_the_NIH"
+title: "NCATS"
+subtitle: "Oct 2020 - Present"
 date: 2018-11-18T12:33:46+10:00
 featured: true
+skills: "Strategic Management, User Research, Meeting Facillitation, Automation"
 weight: 1
 layout: work
 ---

@@ -1,8 +1,10 @@
 ---
-title: "Product_Management_and_Software_Engineering_on_Portabraille_Printer_Project"
+title: "Portabraille Printer Project"
+subtitle: "Nov 2019 - Dec 2019"
 date: 2018-11-28T15:14:54+10:00
 featured: true
-weight: 5
+skills: "Product Management, Software Development, User Research and Testing"
+weight: 6
 layout: work
 ---
 

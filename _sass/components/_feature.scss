@@ -1,12 +1,13 @@
 .feature {
   height: 100%;
-  border: 1px solid $white-offset;
+  border: 1px solid $steel;
   border-radius: 3px;
   padding: 20px;
-  background-color: #ffffff;
+  // background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
+  vertical-align: bottom;
   text-align: center;
   .feature-image {
     flex: 0 0 auto;
@@ -21,9 +22,25 @@
     height: auto;
   }
   .feature-title {
+    // vertical-align: top;
+    color:$black;
+  }
+  .feature-dates{
+    
+    // flex-direction: column;
+    // align-self: flex-end;
+    // vertical-align: bottom;
+    // margin-bottom: 0;
+    // margin-top: auto;
+    color: $primary;
+    text-transform: uppercase;  
+    //TODO: What color should this be??
   }
   .feature-content {
     margin-bottom: 0;
     margin-top: auto;
+    font-weight: 500;
+    color: $steel;
+    // text-transform: uppercase;
   }
 }

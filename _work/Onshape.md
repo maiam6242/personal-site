@@ -1,8 +1,10 @@
 ---
-title: "Software_Engineering_on_Joe_Knows_Project"
+title: "Onshape"
+subtitle: "May 2019 - Aug 2019"
 date: 2018-11-18T12:33:46+10:00
-featured: true
-weight: 6
+featured: false
+skills: "Automation, Product Management, Quality Assurance Testing"
+weight: 7
 layout: work
 ---
 

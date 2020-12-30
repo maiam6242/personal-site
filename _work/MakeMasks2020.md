@@ -1,8 +1,10 @@
 ---
-title: "Software_Engineering_and_Product_at_Onshape"
+title: "MakeMasks2020"
+subtitle: "Mar 2020 - July 2020"
 date: 2018-11-18T12:33:46+10:00
-featured: true
-weight: 6
+featured: false
+skills: "Project Management, Database Creation and Management, Strategic Management"
+weight: 4
 layout: work
 ---
 

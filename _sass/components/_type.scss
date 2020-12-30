@@ -35,6 +35,14 @@ h3 {
     line-height: 1.4;
   }
 }
+h4 {
+  font-size: 11px;
+  line-height: 1.4;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
 ul,
 ol {
   margin: 0;

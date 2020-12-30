@@ -1,8 +1,10 @@
 ---
-title: "Research_and_Advocacy_around_Homelessness_at_the_Coalition_on_Homelessness_and_Burnes_Center"
+title: "Research and Advocacy around Homelessness"
+subtitle: "May 2020 - Sep 2020"
 date: 2018-11-28T15:14:39+10:00
 featured: true
-weight: 2
+skills: "Policy Research and Analysis, Literature Review, Coalition Building, Stakeholder Management"
+weight: 3
 layout: work
 ---
 

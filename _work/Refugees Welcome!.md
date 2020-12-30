@@ -1,8 +1,10 @@
 ---
-title: "Technology_and_IT_Management_at_Refugees_Welcome!"
+title: "Refugees Welcome!"
+subtitle: "May 2019 - Present"
 date: 2018-11-28T15:15:34+10:00
-featured: true
-weight: 4
+featured: false
+skills: "Website Development, Management, Training Development"
+weight: 2
 layout: work
 ---
 

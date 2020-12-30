@@ -736,6 +736,10 @@ h3 { font-size: 16px; line-height: 1.4; }
 
 @media (min-width: 768px) { h3 { font-size: 20px; line-height: 1.4; } }
 
+h4 { font-size: 11px; line-height: 1.4; }
+
+@media (min-width: 768px) { h4 { font-size: 16px; line-height: 1.4; } }
+
 ul, ol { margin: 0; padding: 0; }
 
 ul li, ol li { padding: 0; margin: 0; }
@@ -967,6 +971,8 @@ ul li, ol li { padding: 0; margin: 0; }
 
 .strip-grey { background-color: #FEF2EC; }
 
+.strip-blue { background-color: #f1f9fe; }
+
 .strip-diagonal { transform: skewY(5deg); padding-bottom: 50px; margin-bottom: 65px; }
 
 .strip-diagonal > div { transform: skewY(-5deg); }
@@ -991,13 +997,17 @@ ul li, ol li { padding: 0; margin: 0; }
 
 .strip-bg-cover { background-size: cover; }
 
-.feature { height: 100%; border: 1px solid #FEF2EC; border-radius: 3px; padding: 20px; background-color: #ffffff; display: flex; align-items: center; flex-direction: column; text-align: center; }
+.feature { height: 100%; border: 1px solid #627580; border-radius: 3px; padding: 20px; display: flex; align-items: center; flex-direction: column; vertical-align: bottom; text-align: center; }
 
 .feature .feature-image { flex: 0 0 auto; width: 80px; height: 80px; display: flex; margin-bottom: 20px; text-align: center; }
 
 .feature img { width: 100%; height: auto; }
 
-.feature .feature-content { margin-bottom: 0; margin-top: auto; }
+.feature .feature-title { color: #2f2f41; }
+
+.feature .feature-dates { color: #67BFEB; text-transform: uppercase; }
+
+.feature .feature-content { margin-bottom: 0; margin-top: auto; font-weight: 500; color: #627580; }
 
 .social { display: block; }
 

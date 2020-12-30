@@ -26,6 +26,7 @@ seo:
 collections:
   work:
     output: true
+   
   team:
     output: true
 
