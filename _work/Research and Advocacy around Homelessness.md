@@ -1,9 +1,13 @@
 ---
 title: "Research and Advocacy around Homelessness"
+long_title: "Understanding and Advocating with People Experiencing Homelessness"
 subtitle: "May 2020 - Sep 2020"
 date: 2018-11-28T15:14:39+10:00
 featured: true
 skills: "Policy Research and Analysis, Literature Review, Coalition Building, Stakeholder Management"
+work_image: "images/work/coh.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 3
 layout: work
 ---

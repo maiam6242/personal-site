@@ -1,9 +1,13 @@
 ---
 title: "Migrant Service Map"
+long_title: "Developing a Product with Service Providers to Help Them Find Each Other"
 subtitle: "Feb 2019 - Dec 2019"
 date: 2018-11-28T15:15:26+10:00
 featured: true
 skills: "Product Management, User  Research, Documentation Development, Quality Assurance  Testing"
+work_image: "images/work/cfb.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 5
 layout: work
 ---

@@ -1,9 +1,13 @@
 ---
 title: "Refugees Welcome!"
+long_title: "Developing Technology to Support Migrant Service Providers"
 subtitle: "May 2019 - Present"
 date: 2018-11-28T15:15:34+10:00
 featured: false
 skills: "Website Development, Management, Training Development"
+work_image: "images/work/rw!.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 2
 layout: work
 ---

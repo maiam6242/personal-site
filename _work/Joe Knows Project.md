@@ -1,9 +1,13 @@
 ---
 title: "Joe Knows Project"
+long_title: "Helping a Man Who is Visually Impaired Navigate Public Transit"
 subtitle: "Feb 2019 - May 2019"
 date: 2018-11-18T12:33:46+10:00
 featured: false
 skills: "Mobile App Development, User Research and Testing, User Experience Design, Firmware Development"
+work_image: "images/work/joe.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 8
 layout: work
 ---

@@ -1,15 +1,19 @@
 ---
 title: 'About'
 date: 2018-02-22T17:01:34+07:00
+intro_image: "/images/about/me_at_acadia.jpeg"
+intro_image_absolute: true
+intro_image_hide_on_mobile: false
 layout: page
 bodyClass: page-about
 ---
 
+# About Me 
 Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
-## Ne verba patulosque numen vix libet
+<!-- ## Ne verba patulosque numen vix libet
 
 Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
@@ -49,4 +53,4 @@ Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
 iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
 et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
 somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+tamen lentis spectat, Titania est animo. -->

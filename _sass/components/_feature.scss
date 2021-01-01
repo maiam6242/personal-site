@@ -9,6 +9,10 @@
   flex-direction: column;
   vertical-align: bottom;
   text-align: center;
+  justify-content: space-between;
+
+  // cursor: pointer;
+
   .feature-image {
     flex: 0 0 auto;
     width: 80px;
@@ -21,14 +25,23 @@
     width: 100%;
     height: auto;
   }
+  .feature-box {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    
+  }
+
   .feature-title {
     // vertical-align: top;
     color:$black;
   }
   .feature-dates{
-    
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
     // align-self: flex-end;
+    justify-self:flex-end;
+    // vertical-align: text-bottom;
     // vertical-align: bottom;
     // margin-bottom: 0;
     // margin-top: auto;

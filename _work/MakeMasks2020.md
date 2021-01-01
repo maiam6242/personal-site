@@ -1,9 +1,13 @@
 ---
 title: "MakeMasks2020"
+long_title: Getting Masks to Facilities in Need During Early COVID-19
 subtitle: "Mar 2020 - July 2020"
 date: 2018-11-18T12:33:46+10:00
 featured: false
 skills: "Project Management, Database Creation and Management, Strategic Management"
+work_image: "images/work/masks.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 4
 layout: work
 ---

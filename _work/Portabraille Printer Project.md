@@ -1,9 +1,13 @@
 ---
 title: "Portabraille Printer Project"
+long_title: "Creating a Portable Braille Printer in 8 Weeks"
 subtitle: "Nov 2019 - Dec 2019"
 date: 2018-11-28T15:14:54+10:00
 featured: true
 skills: "Product Management, Software Development, User Research and Testing"
+work_image: "images/work/poe.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 6
 layout: work
 ---

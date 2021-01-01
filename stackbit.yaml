@@ -181,10 +181,25 @@ models:
     fields:
       - type: string
         name: title
+      - type: string
+        name: long_title
+      - type: string
+        name: subtitle
       - type: date
         name: date
       - type: boolean
         name: featured
+      - type: string
+        name: skills
+      - type: image
+        name: work_image
+        description: Image displayed at in the pages work section
+      - type: boolean
+        name: work_image_absolute
+        description: Should the image overflow or be contained
+      - type: boolean
+        name: work_image_hide_on_mobile
+        description: Hide the work image on mobile screen sizes
       - type: number
         name: weight
   works:

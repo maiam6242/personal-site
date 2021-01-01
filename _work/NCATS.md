@@ -1,16 +1,20 @@
 ---
 title: "NCATS"
+long_title: "Creating and Aligning Around a Strategic Direction"
 subtitle: "Oct 2020 - Present"
 date: 2018-11-18T12:33:46+10:00
 featured: true
 skills: "Strategic Management, User Research, Meeting Facillitation, Automation"
+work_image: "images/work/ncats.png"
+work_image_absolute: true
+work_image_hide_on_mobile: false
 weight: 1
 layout: work
 ---
 
 Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
 
-![Accounting works](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Accounting works](image here link)
 
 # Objectives 
 
