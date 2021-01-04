@@ -6,9 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+ 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
 
+ <link rel="stylesheet" type="text/css" href='../infusion/src/framework/preferences/css/PrefsEditor.css'}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/Enactors.css"}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css"> 
+  <link rel="stylesheet" type="text/css" href="../infusion/src/lib/normalize/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/core/css/fluid.css" />
+
+    <script type="text/javascript" src="../infusion/infusion-uiOptions.js"></script>
+
+</head>
   <link href="/assets/css/style.css" rel="stylesheet">
   
   <meta property="og:title" content="Maia Materman Portfolio" />
@@ -20,6 +30,17 @@
   <meta name="twitter:site" content="" />
   <meta name="twitter:creator" content="" />
 </head>
+<script type="text/javascript">
+        $(document).ready(function () {
+            fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+                tocTemplate: "../infusion/src/components/tableOfContents/html/TableOfContents.html",
+                terms: {
+                    templatePrefix: "../infusion/src/framework/preferences/html",
+                    messagePrefix: "../infusion/src/framework/preferences/messages"
+                }
+            });
+        })
+    </script> 
 <body class='page '>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
@@ -45,13 +66,25 @@
 </div>
 
   <div id="wrapper" class="wrapper">
-    <div class='header'>
+  </div>
+    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+        <!-- This is the div that will contain the Preference Editor component -->
+         <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div> 
+        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+       <span class="fl-prefsEditor-buttons">
+			 <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset" style="float:right;">Reset</button>
+			 <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide" style="float:right;">Viewing Preferences</button>
+       </span>
+  </div>     
+
+<nav class="flc-toc-tocContainer"></nav>
+<div class='header'>
   <div class="container">
     <div aria-label="site logo" class="logo">
       <a href="/"><img height="40px" alt="Maia Materman" src="/images/logo/logo.svg" /></a>
     </div>
     <div aria-label="site logo" class="logo-mobile">
-      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.svg" /></a>
+      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.png" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   
@@ -81,19 +114,79 @@
     <span class="hamburger-inner"></span>
   </span>
 </button>
-  </div>
+ 
 </div>
-    
+</div>
+</div>
+</div>
+    <div class="intro" style="padding-bottom: 0px;">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <p>Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
+vixque dixit negari <em>ullis stamina</em>: trahit. Tanta rictus in mitia causa, Phoebo
+nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
+cadet! <a href="#natisque-tot-traiecta">Ego</a> vitis imagine stagna insidias redigentur
+petunt dempserat dixisse, pro raptae aut male?</p>
+
+<ul>
+  <li>Dente reponere dixere referre excessitque seque</li>
+  <li>Tacui si cui inde haec ubi trepidas</li>
+  <li>Coniunx nulla aut</li>
+</ul>
+
+<h2 id="geniti-facinus-praeruptam-atris-ab-manus-in">Geniti facinus praeruptam atris ab manus in</h2>
+
+<p>Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
+non <em>tangere</em> tendens corpore sed. Sine genae ominibus cereris, pectebant tum
+<a href="#mutavit-lacertos">crudelia</a>, oscula. Veneris <em>rumpe tibi</em> aliquis paenituisse;
+cum tanti pressus erat <em>ira magnumque videntem</em>; fit est misit nec. Est ea
+vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
+patiensque, Perrhaebum <strong>illa</strong>: querenti.</p>
+
+<ol>
+  <li>Deum sibi poma lacuque fateor</li>
+  <li>Nisi vultibus adspicio totosque gladios a novatrix</li>
+  <li>Regna ducebat</li>
+</ol>
+
+<p><em>Fuit</em> eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
+<strong>foret petebatur</strong> atro, tibi fugienti deus abluit illa, <strong>non</strong>.</p>
+
+<h2 id="vidit-si-probetne-vertitur">Vidit si probetne vertitur</h2>
+
+<p>In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
+vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
+iuvenum <strong>inamabile</strong> perosae, <strong>hostis foedantem Rutulos</strong>.</p>
+
+<ol>
+  <li>Augusta exstinctus dempto repperit ut quati enim</li>
+  <li>Quae illo sine fatorum</li>
+  <li>Sub ut Hyadasque specus terraeque coniunx vix</li>
+  <li>Voce addita est haec</li>
+  <li>Stagnum pavido sanguine Priamo custodia sed</li>
+</ol>
+
+<p>Iste gente Orpheus sua nec studiosior <em>et urit certe</em> relevare comites vestibus?
+Digredimur <em>conbibitur citius induruit</em> manes pressique Nyctimenen ille comas
+ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
+motibus; opem baculum.</p>
+
+      </div>
+      
+    </div>
+  </div>
+</div> 
 
 
 <div class="container pt-6 pb-6">
   <div class="row">
     
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "NCATS" alt="NCATS" class="intro-image work-image-absolute" src="/images/work/ncats.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -103,9 +196,9 @@
             NCATS </strong> <br/> <i>Oct 2020 - Present
           </i></h4>
           <p>Financial accounting (or financial accountancy) is the field of accounting concerned with the sum...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Strategic Management, User Research, Meeting Facillitation, Automation
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -116,10 +209,10 @@
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Refugees Welcome!" alt="Refugees Welcome!" class="intro-image work-image-absolute" src="/images/work/rw!.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -130,9 +223,9 @@
           </i></h4>
           <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavi...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Website Development, Management, Training Development
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -143,10 +236,10 @@ de obside ut laniavi...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Research and Advocacy around Homelessness" alt="Research and Advocacy around Homelessness" class="intro-image work-image-absolute" src="/images/work/coh.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -157,9 +250,9 @@ de obside ut laniavi...</p>
           </i></h4>
           <p>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
 ignisque quaerit ded...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Policy Research and Analysis, Literature Review, Coalition Building, Stakeholder Management
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -170,10 +263,10 @@ ignisque quaerit ded...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "MakeMasks2020" alt="MakeMasks2020" class="intro-image work-image-absolute" src="/images/work/masks.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -184,9 +277,9 @@ ignisque quaerit ded...</p>
           </i></h4>
           <p>Lorem markdownum Achaica revolutaque amore, penitus puppes nec furit,
 clipeus fatetur, mira inter...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Project Management, Database Creation and Management, Strategic Management
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -197,10 +290,10 @@ clipeus fatetur, mira inter...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Migrant Service Map" alt="Migrant Service Map" class="intro-image work-image-absolute" src="/images/work/cfb.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -211,9 +304,9 @@ clipeus fatetur, mira inter...</p>
           </i></h4>
           <p>Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
 vixque dixit negari ullis stamina...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Product Management, User  Research, Documentation Development, Quality Assurance  Testing
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -224,10 +317,10 @@ vixque dixit negari ullis stamina...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Portabraille Printer Project" alt="Portabraille Printer Project" class="intro-image work-image-absolute" src="/images/work/poe.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -238,9 +331,9 @@ vixque dixit negari ullis stamina...</p>
           </i></h4>
           <p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
 de obside ut laniavi...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Product Management, Software Development, User Research and Testing
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -251,10 +344,10 @@ de obside ut laniavi...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Onshape" alt="Onshape" class="intro-image work-image-absolute" src="/images/work/onshape.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -265,9 +358,9 @@ de obside ut laniavi...</p>
           </i></h4>
           <p>Lorem markdownum Achaica revolutaque amore, penitus puppes nec furit,
 clipeus fatetur, mira inter...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Automation, Product Management, Quality Assurance Testing
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -278,10 +371,10 @@ clipeus fatetur, mira inter...</p>
       </div>
     </div>
     
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "Joe Knows Project" alt="Joe Knows Project" class="intro-image work-image-absolute" src="/images/work/joe.png"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -292,9 +385,9 @@ clipeus fatetur, mira inter...</p>
           </i></h4>
           <p>Lorem markdownum Achaica revolutaque amore, penitus puppes nec furit,
 clipeus fatetur, mira inter...</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           Mobile App Development, User Research and Testing, User Experience Design, Firmware Development
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
@@ -308,7 +401,7 @@ clipeus fatetur, mira inter...</p>
   </div>
 </div>
 
-  </div>
+  
   <div class="footer">
   <div class="container">
     <div class="row">
@@ -356,6 +449,8 @@ clipeus fatetur, mira inter...</p>
   </div>
 </div>
   <script type="text/javascript" src="/assets/js/scripts.js""></script>
+  
+
   
 </body>
 </html>

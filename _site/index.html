@@ -6,9 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+ 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
 
+ <link rel="stylesheet" type="text/css" href='../infusion/src/framework/preferences/css/PrefsEditor.css'}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/Enactors.css"}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css"> 
+  <link rel="stylesheet" type="text/css" href="../infusion/src/lib/normalize/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/core/css/fluid.css" />
+
+    <script type="text/javascript" src="../infusion/infusion-uiOptions.js"></script>
+
+</head>
   <link href="/assets/css/style.css" rel="stylesheet">
   
   <meta name="description" content="A homepage for my portfolio and resume website" />
@@ -22,6 +32,17 @@
   <meta name="twitter:site" content="" />
   <meta name="twitter:creator" content="" />
 </head>
+<script type="text/javascript">
+        $(document).ready(function () {
+            fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+                tocTemplate: "../infusion/src/components/tableOfContents/html/TableOfContents.html",
+                terms: {
+                    templatePrefix: "../infusion/src/framework/preferences/html",
+                    messagePrefix: "../infusion/src/framework/preferences/messages"
+                }
+            });
+        })
+    </script> 
 <body class='page '>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
@@ -47,13 +68,25 @@
 </div>
 
   <div id="wrapper" class="wrapper">
-    <div class='header'>
+  </div>
+    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+        <!-- This is the div that will contain the Preference Editor component -->
+         <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div> 
+        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+       <span class="fl-prefsEditor-buttons">
+			 <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset" style="float:right;">Reset</button>
+			 <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide" style="float:right;">Viewing Preferences</button>
+       </span>
+  </div>     
+
+<nav class="flc-toc-tocContainer"></nav>
+<div class='header'>
   <div class="container">
     <div aria-label="site logo" class="logo">
       <a href="/"><img height="40px" alt="Maia Materman" src="/images/logo/logo.svg" /></a>
     </div>
     <div aria-label="site logo" class="logo-mobile">
-      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.svg" /></a>
+      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.png" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   
@@ -83,7 +116,10 @@
     <span class="hamburger-inner"></span>
   </span>
 </button>
-  </div>
+ 
+</div>
+</div>
+</div>
 </div>
     <div class="intro">
   <div class="container">
@@ -95,23 +131,46 @@
 
         
           <div class="call">
+ 
   <div class="call-box-top">
+  <div class="row justify-content-center">
+  <div class= "col-12 col-md-3">
+
     
-        <div class="call-phone"><a href="tel:310 982 5218"><img alt="phone icon" src="images/logo/logo.svg"/></a> </div>
+        <div class="call-image"><a href="tel:310-982-5218"><img alt="phone" src="/images/contact/phone.svg"/></a> </div>
     
+    </div>
+      <div class= "col-12 col-md-3">
     
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:">
-        mmaterman@olin.edu
-      </a>
+    <div class="call-image"><a href="mailto:"><img alt="email" aria-label="email" src="/images/contact/email.svg"/></a>
+    </div>
+    
+    </div>
+    <div class= "col-12 col-md-3">
+    
+    <div class="call-image"><a href=""><img alt="github" aria-label="github" src="/images/contact/github.svg"/></a>
+    </div>
+     
+    </div>
+    <div class= "col-12 col-md-3"> 
+   
+    <div class="call-image"><a href=""><img alt="linkedin" aria-label="linkedin" src="/images/contact/linkedin.svg"/></a>
+   
     </div>
     
   </div>
+  </div>
+   </div>
+   
     
       <div class="call-box-bottom">
-        <a href="contact" class="button">My Resume</a>
+         <div class= "col-12 col-md-2"> 
+        <a href="/resume/" class="button">My Resume</a>
+      </div>
       </div>
     
+
+
 </div>
 
         
@@ -363,7 +422,7 @@ vixque dixit negari ullis stamina...</p>
 </div>
 
 
-  </div>
+  
   <div class="footer">
   <div class="container">
     <div class="row">
@@ -411,6 +470,8 @@ vixque dixit negari ullis stamina...</p>
   </div>
 </div>
   <script type="text/javascript" src="/assets/js/scripts.js""></script>
+  
+
   
 </body>
 </html>

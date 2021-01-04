@@ -885,6 +885,12 @@ ul li, ol li { padding: 0; margin: 0; }
 
 .call .call-email a { color: #2f2f41; }
 
+.call .call-email .image { height: 60px; width: 60px; overflow: hidden; }
+
+.call .call-email .image img { width: 60px; }
+
+.call .call-email .image:hover { filter: brightness(125%); }
+
 .call strong { font-weight: bold; }
 
 .call svg { fill: white; position: absolute; bottom: -9px; right: 0; width: 100px; height: 100px; }

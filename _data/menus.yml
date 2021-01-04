@@ -8,7 +8,7 @@ main:
   - name: "Resume"
     url: "/resume/"
     weight: 4
-  - name: "Say Hi"
+  - name: "Contact"
     url: "/contact/"
     weight: 5
 

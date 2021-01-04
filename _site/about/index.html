@@ -6,9 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+ 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
 
+ <link rel="stylesheet" type="text/css" href='../infusion/src/framework/preferences/css/PrefsEditor.css'}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/Enactors.css"}}>
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css"> 
+  <link rel="stylesheet" type="text/css" href="../infusion/src/lib/normalize/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/core/css/fluid.css" />
+
+    <script type="text/javascript" src="../infusion/infusion-uiOptions.js"></script>
+
+</head>
   <link href="/assets/css/style.css" rel="stylesheet">
   
   <meta property="og:title" content="Maia Materman Portfolio" />
@@ -20,6 +30,17 @@
   <meta name="twitter:site" content="" />
   <meta name="twitter:creator" content="" />
 </head>
+<script type="text/javascript">
+        $(document).ready(function () {
+            fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+                tocTemplate: "../infusion/src/components/tableOfContents/html/TableOfContents.html",
+                terms: {
+                    templatePrefix: "../infusion/src/framework/preferences/html",
+                    messagePrefix: "../infusion/src/framework/preferences/messages"
+                }
+            });
+        })
+    </script> 
 <body class='page page-about'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   
@@ -45,13 +66,25 @@
 </div>
 
   <div id="wrapper" class="wrapper">
-    <div class='header'>
+  </div>
+    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+        <!-- This is the div that will contain the Preference Editor component -->
+         <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div> 
+        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+       <span class="fl-prefsEditor-buttons">
+			 <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset" style="float:right;">Reset</button>
+			 <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide" style="float:right;">Viewing Preferences</button>
+       </span>
+  </div>     
+
+<nav class="flc-toc-tocContainer"></nav>
+<div class='header'>
   <div class="container">
     <div aria-label="site logo" class="logo">
       <a href="/"><img height="40px" alt="Maia Materman" src="/images/logo/logo.svg" /></a>
     </div>
     <div aria-label="site logo" class="logo-mobile">
-      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.svg" /></a>
+      <a href="/"><img alt="Maia Materman" src="/images/logo/logo-mobile.png" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   
@@ -81,62 +114,24 @@
     <span class="hamburger-inner"></span>
   </span>
 </button>
-  </div>
+ 
+</div>
+</div>
+</div>
 </div>
     <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-9 col-lg-8 order-2 order-md-1">
         <h1 id="about-me">About Me</h1>
-<p>Lorem markdownum aequalis strigis. <em>Saetigeri iubeas</em>, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.</p>
 
-<!-- ## Ne verba patulosque numen vix libet
+<p>My goal is to help create a world in which everyone has equitable access to opportunities, regardleess of where they started. That desire guides my work, taking me everywhere from <a href="'/work/Migrant Service Map/'">building tools with migrant service providers</a> to <a href="'/work/Research and Advocacy around Homelessness/'">advocating with people experiencing homelessness</a>. I’m passionate about inclusive, human centered, accessible design, product management and societal injustices; especially investigating the role that technology can play in perpetuating or mitigating those problems.</p>
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
-
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
-
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
-
-## Postquam tamen
-
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
-
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
-
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
-
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo. -->
+<p>Outside of work, you can probably find me with my head buried in a book, doing the New York Times mini crossword, or outside on an adventure: camping, hiking or just generally exploring!</p>
 
       </div>
       
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+      <div class="col-12 col-md-3 col-lg-4 order-1 order-md-2 position-relative">
          <img aria-label= "About"aria-label= About alt=About class="intro-image intro-image-absolute" style="margin-bottom: -30px;" src="/images/about/me_at_acadia.jpeg" />
       </div>
       
@@ -145,7 +140,7 @@ tamen lentis spectat, Titania est animo. -->
 </div>
 
 
-  </div>
+  
   <div class="footer">
   <div class="container">
     <div class="row">
@@ -193,6 +188,8 @@ tamen lentis spectat, Titania est animo. -->
   </div>
 </div>
   <script type="text/javascript" src="/assets/js/scripts.js""></script>
+  
+
   
 </body>
 </html>

@@ -205,7 +205,7 @@ models:
   works:
     type: page
     label: Work
-    layout: works
+    layout: work1
     fields:
       - type: string
         name: title

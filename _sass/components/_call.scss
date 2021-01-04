@@ -41,6 +41,17 @@
     a {
       color: $black;
     }
+  .image{
+    height: 60px;
+    width: 60px;     
+    overflow: hidden;
+      img {
+        width: 60px;
+      }
+  }
+    .image:hover{
+      filter: brightness(125%)
+    }
   }
   strong {
     font-weight: bold;
@@ -52,9 +63,11 @@
     right: 0;
     width: 100px;
     height: 100px;
+    
     @include media-breakpoint-up(sm) {
       width: 120px;
       height: 120px;
     }
   }
+  
 }

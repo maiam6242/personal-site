@@ -1,19 +1,42 @@
 <div class="call">
+ 
   <div class="call-box-top">
+  <div class="row justify-content-center">
+  <div class= "col-12 col-md-3">
+
     {% if site.data.contact.phone %}
-        <div class="call-phone"><a href="tel:{{ site.data.contact.phone }}"><img alt="phone" src="/images/contact/phone.svg"/></a>  </div>
+        <div class="call-image"><a href="tel:{{ site.data.contact.phone }}"><img alt="phone" src="/images/contact/phone.svg"/></a> </div>
     {% endif %}
+    </div>
+      <div class= "col-12 col-md-3">
     {% if site.data.contact.email %}
-    <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.Data.contact.email }}">
-        {{ site.data.contact.email }}
-      </a>
+    <div class="call-image"><a href="mailto:{{site.Data.contact.email }}"><img alt="email" aria-label="email" src="/images/contact/email.svg"/></a>
+    </div>
+    {% endif %}
+    </div>
+    <div class= "col-12 col-md-3">
+    {% if site.data.contact.github %}
+    <div class="call-image"><a href="{{site.Data.contact.github }}"><img alt="github" aria-label="github" src="/images/contact/github.svg"/></a>
+    </div>
+    {% endif %} 
+    </div>
+    <div class= "col-12 col-md-3"> 
+   {% if site.data.contact.linkedin %}
+    <div class="call-image"><a href="{{site.Data.contact.linkedin }}"><img alt="linkedin" aria-label="linkedin" src="/images/contact/linkedin.svg"/></a>
+   
     </div>
     {% endif %}
   </div>
+  </div>
+   </div>
+   
     {% if include.show_button %}
       <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+         <div class= "col-12 col-md-2"> 
+        <a href="{{ site.data.contact.contact_button_link }}" class="button">My Resume</a>
+      </div>
       </div>
     {% endif %}
+
+
 </div>

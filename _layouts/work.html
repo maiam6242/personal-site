@@ -3,7 +3,7 @@ layout: default
 bodyClass: page-work-list
 ---
 
-<div class="intro">
+<div class="intro" style="padding-bottom: 0px;">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -16,17 +16,17 @@ bodyClass: page-work-list
       {% endif %}
     </div>
   </div>
-</div> {% endcomment %}
+</div> 
 
 
 <div class="container pt-6 pb-6">
   <div class="row">
     {% assign sorted_pages = (site.work | sort: 'weight') %}
     {% for work in sorted_pages %}
-     <div class="col-12 col-md-6 mb-3 position-relative">
+     <div class="col-12 col-md-6 mt-9 position-relative">
       <img aria-label= "{{work.title}}" alt="{{ work.title }}" class="intro-image{% if work.work_image_absolute %} work-image-absolute{% endif %}{% if work.work_image_hide_on_mobile %} work-image-hide-mobile{% endif %}" src="{{ work.work_image | relative_url }}"/> 
     </div>
-    <div class="col-12 col-md-6 mb-3">
+    <div class="col-12 col-md-6 mt-9">
       <div class="work work-summary">
         <div class="work-content">
           <h2 class="work-title" style=" color:"$primary";">
@@ -36,9 +36,9 @@ bodyClass: page-work-list
             {{work.title}} </strong> <br/> <i>{{work.subtitle}}
           </i></h4>
           <p>{{ work.content | markdownify | strip_html | truncate: 100 }}</p>     
-          <h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
+          <!--<h4 style="text-transform: uppercase; font-weight: 450; color: #67BFEB;">
           {{work.skills}}
-          </h4> 
+          </h4> -->
 
           <!-- <div class="row justify-content-flex-end">
             <div class="col-auto">
