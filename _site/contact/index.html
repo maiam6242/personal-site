@@ -4,21 +4,21 @@
   <meta charset="utf-8">
   <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="/images/favicon-32x32.svg">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
  
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
 
- <link rel="stylesheet" type="text/css" href='../infusion/src/framework/preferences/css/PrefsEditor.css'}}>
-  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/Enactors.css"}}>
-  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css"> 
-  <link rel="stylesheet" type="text/css" href="../infusion/src/lib/normalize/css/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="../infusion/src/framework/core/css/fluid.css" />
+ <link rel="stylesheet" type="text/css" href=/infusion/src/framework/preferences/css/PrefsEditor.css>
+  <link rel="stylesheet" type="text/css" href=/infusion/src/framework/preferences/css/Enactors.css>
+  <link rel="stylesheet" type="text/css" href=/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css> 
+  <link rel="stylesheet" type="text/css" href=/infusion/src/lib/normalize/css/normalize.css />
+  <link rel="stylesheet" type="text/css" href=/infusion/src/framework/core/css/fluid.css/>
 
-    <script type="text/javascript" src="../infusion/infusion-uiOptions.js"></script>
+    <script type="text/javascript" src= /infusion/infusion-uiOptions.js></script>
 
-</head>
+
   <link href="/assets/css/style.css" rel="stylesheet">
   
   <meta property="og:title" content="Maia Materman Portfolio" />
@@ -29,14 +29,16 @@
   <meta name="twitter:card" content="" />
   <meta name="twitter:site" content="" />
   <meta name="twitter:creator" content="" />
+
+  <script src="/assets/js/pdfobject.js"></script>
 </head>
 <script type="text/javascript">
         $(document).ready(function () {
             fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
-                tocTemplate: "../infusion/src/components/tableOfContents/html/TableOfContents.html",
+                tocTemplate: "/infusion/src/components/tableOfContents/html/TableOfContents.html",
                 terms: {
-                    templatePrefix: "../infusion/src/framework/preferences/html",
-                    messagePrefix: "../infusion/src/framework/preferences/messages"
+                    templatePrefix: "/infusion/src/framework/preferences/html",
+                    messagePrefix: "/infusion/src/framework/preferences/messages"
                 }
             });
         })
@@ -163,45 +165,42 @@
 
                 <div class="content mt-4"><p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Opening Hours</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Tuesday</td>
-      <td>8:30am - 5:00pm</td>
-    </tr>
-    <tr>
-      <td>Wednesday</td>
-      <td>8:30am - 5:00pm</td>
-    </tr>
-    <tr>
-      <td>Thursday</td>
-      <td>8:30am - 5:00pm</td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td>8:30am - 5:00pm</td>
-    </tr>
-    <tr>
-      <td>Saturday</td>
-      <td>10:am - 4:00pm</td>
-    </tr>
-    <tr>
-      <td>Saturday</td>
-      <td>Closed</td>
-    </tr>
-  </tbody>
-</table>
 </div>
             </div>
         </div>
     </div>
+
+
+<form action="https://formspree.io/f/xjvpjbwp" method="POST">
+  <div class="row align-items-center">
+    <div class="col-auto form-group">
+      <label class="sr-only" for="inlineFormInput">Name</label>
+      <input type="text" class="form-control mb-2 col-form-label" id="inlineFormInput">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-auto form-group">
+      <label class="sr-only" for="inlineFormInputGroup">Email</label>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12 form-group">
+      <label class="sr-only" for="inlineFormInputGroup">Message</label>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-auto">
+      <button type="submit" class="button mb-2">Send</button>
+    </div>
+  </div>
+</form>
 </div>
+
+
 
   
   <div class="footer">

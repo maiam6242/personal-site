@@ -722,6 +722,8 @@ html { box-sizing: border-box; -ms-overflow-style: scrollbar; }
 
 a { color: #206C97; }
 
+a span { background-color: #FEF2EC; }
+
 p { line-height: 26px; color: #627580; font-family: "Roboto", "Open Sans", "Monserrat" Arial, sans-serif, -apple-system; margin-bottom: 20px; }
 
 h1 { font-size: 20px; font-family: "Merriweather", serif, -apple-system; line-height: 1.2; margin-bottom: 20px; }
@@ -875,7 +877,7 @@ ul li, ol li { padding: 0; margin: 0; }
 
 .call .call-box-top { flex: 1 0 auto; padding: 20px; }
 
-.call .call-box-bottom { flex: auto; padding: 20px; border-top: 1px solid #fde1d4; }
+.call .call-box-bottom { flex: auto; padding: 10px; border-top: 1px solid #fde1d4; }
 
 @media (min-width: 576px) { .call .call-box-bottom { flex: 0 0 auto; border: none; } }
 

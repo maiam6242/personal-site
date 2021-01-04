@@ -204,7 +204,7 @@ models:
         name: weight
   works:
     type: page
-    label: Work
+    label: Work1
     layout: work1
     fields:
       - type: string

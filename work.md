@@ -8,4 +8,4 @@ intro_image_hide_on_mobile: false
 
 # Please Check Out My Work Below
 
-For a more concise version, feel free to browse my [resume]("/resume").
+For a more concise version, feel free to browse my [<span>resume</span>]("/resume").
